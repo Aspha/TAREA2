@@ -418,3 +418,18 @@ nav a:first-child{
     margin-bottom: 10px;
 }
 
+
+.btn-comprar{
+    background-color: #263143;
+    color: #fff;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px ;
+    border: none;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.btn-comprar:hover{
+    background-color: #2d4263;
+}
