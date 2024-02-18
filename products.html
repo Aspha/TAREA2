@@ -45,7 +45,10 @@
       <div class="nav-icon">
         <a href=""><i class="bx bx-search"></i></a>
         <a href="profile.html"><i class="bx bx-user"></i></a>
-        <a href=""><i class="bx bx-cart"></i></a>
+        <div>
+          <a href=""><i class="bx bx-cart"></i></a>
+          <div id="numero"></div>
+        </div>
 
         <div class="bx bx-menu" id="menu-icon"></div>
       </div>
@@ -343,6 +346,16 @@
           </div> -->
     </section>
 
+    <section id="contenedorCompra" class="contenedorCompra">
+      <div class="informacionCompra" id="informacionCompra">
+        <h2>Cesta</h2>
+        <p class="x" id="x">X</p>
+      </div>
+      <div class="productosCompra" id="productosCompra"></div>
+      <div class="total" id="total"></div>
+      <button>Finalizar Compra</button>
+    </section>
+
     <footer class="contact">
       <div class="contact-info">
         <div class="first-info">
@@ -400,6 +413,8 @@
         </div>
       </div>
     </footer>
+
+
 
     <script src="script.js"></script>
     <script
