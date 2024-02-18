@@ -68,7 +68,7 @@ header{
 }
 
 section{
-    padding: 5% 10.5%;
+    padding: 11% 10.5% 1.5%;
 }
 
 .main-home{
@@ -413,5 +413,8 @@ nav a:first-child{
     font-weight: 900;
 }
 
-
+.fila{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 

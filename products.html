@@ -1,57 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Catálogo de Productos</title>
-        <link rel="stylesheet" href="styles.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,700&family=Jost:wght@100;200;300;400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-          integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-          crossorigin="anonymous"
-          referrerpolicy="no-referrer"
-        />
-        <link
-          rel="stylesheet"
-          href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
-        /> 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-      </head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catálogo de Productos</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,700&family=Jost:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <header class="head-back">
-        <a href="#" class="logo"
-          ><img src="./src/logo.png" alt="Logo Principal"
-        /></a>
-  
-        <ul class="navmenu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="products.html">Products</a></li>
-          <li><a href="registration.html">Registration</a></li>
-          <li><a href="profile.html">Profile</a></li>
-        </ul>
-  
-        <div class="nav-icon">
-          <a href=""><i class="bx bx-search"></i></a>
-          <a href="profile.html"><i class="bx bx-user"></i></a>
-          <a href=""><i class="bx bx-cart"></i></a>
-  
-          <div class="bx bx-menu" id="menu-icon"></div>
-        </div>
-      </header>
+      <a href="#" class="logo"
+        ><img src="./src/logo.png" alt="Logo Principal"
+      /></a>
 
-      <section class="trending-product" id="trending">
-        <div class="center-text">
-          <h2>Our Trending <span>Products</span></h2>
+      <ul class="navmenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="registration.html">Registration</a></li>
+        <li><a href="profile.html">Profile</a></li>
+      </ul>
+
+      <div class="nav-icon">
+        <a href=""><i class="bx bx-search"></i></a>
+        <a href="profile.html"><i class="bx bx-user"></i></a>
+        <a href=""><i class="bx bx-cart"></i></a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+    </header>
+
+    <section class="trending-product" id="trending">
+      <div class="row fila">
+        <div class="card col" style="width: 18rem;margin-left: 10px;margin-right: 10px;height: fit-content;">
+          <img src="src/1.jpg" class="card-img-top" alt="..." />
+          <div class="price">
+            <div class="rating">
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+            </div>
+            <div class="price">
+              <h4>Wireless Screwdriver</h4>
+              <p>S/249.90</p>
+            </div>
+          </div>            
         </div>
-  
-        <div class="products1">
+        <div class="card col" style="width: 18rem;margin-left: 10px;margin-right: 10px;height: fit-content;">
+          <img src="src/1.jpg" class="card-img-top" alt="..." />
+          <div class="price">
+            <div class="rating">
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+            </div>
+            <div class="price">
+              <h4>Wireless Screwdriver</h4>
+              <p>S/249.90</p>
+            </div>
+          </div>            
+        </div>
+        <div class="card col" style="width: 18rem;margin-left: 10px;margin-right: 10px;height: fit-content;">
+          <img src="src/1.jpg" class="card-img-top" alt="..." />
+          <div class="price">
+            <div class="rating">
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+            </div>
+            <div class="price">
+              <h4>Wireless Screwdriver</h4>
+              <p>S/249.90</p>
+            </div>
+          </div>            
+        </div>
+        <div class="card col" style="width: 18rem;margin-left: 10px;margin-right: 10px;height: fit-content;">
+          <img src="src/1.jpg" class="card-img-top" alt="..." />
+          <div class="price">
+            <div class="rating">
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+            </div>
+            <div class="price">
+              <h4>Wireless Screwdriver</h4>
+              <p>S/249.90</p>
+            </div>
+          </div>            
+        </div>
+      </div>
+      <div class="row fila">
+        <div class="card col" style="width: 18rem;margin-left: 10px;margin-right: 10px;height: fit-content;">
+          <img src="src/1.jpg" class="card-img-top" alt="..." />
+          <div class="price">
+            <div class="rating">
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+            </div>
+            <div class="price">
+              <h4>Wireless Screwdriver</h4>
+              <p>S/249.90</p>
+            </div>
+          </div>            
+        </div>
+        <div class="card col" style="width: 18rem;margin-left: 10px;margin-right: 10px;height: fit-content;">
+          <img src="src/1.jpg" class="card-img-top" alt="..." />
+          <div class="price">
+            <div class="rating">
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+            </div>
+            <div class="price">
+              <h4>Wireless Screwdriver</h4>
+              <p>S/249.90</p>
+            </div>
+          </div>            
+        </div>
+        <div class="card col" style="width: 18rem;margin-left: 10px;margin-right: 10px;height: fit-content;">
+          <img src="src/1.jpg" class="card-img-top" alt="..." />
+          <div class="price">
+            <div class="rating">
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+            </div>
+            <div class="price">
+              <h4>Wireless Screwdriver</h4>
+              <p>S/249.90</p>
+            </div>
+          </div>            
+        </div>
+        <div class="card col" style="width: 18rem;margin-left: 10px;margin-right: 10px;height: fit-content;">
+          <img src="src/1.jpg" class="card-img-top" alt="..." />
+          <div class="price">
+            <div class="rating">
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+            </div>
+            <div class="price">
+              <h4>Wireless Screwdriver</h4>
+              <p>S/249.90</p>
+            </div>
+          </div>            
+        </div>
+      </div>
+
+
+
+      <!-- <div class="products1">
           <div class="row">
             <img src="src/1.jpg" alt="Atornillador inalámbrico" />
             <div class="heart-icon">
@@ -196,62 +332,70 @@
                 <p>S/599.90</p>
               </div>
             </div>
+          </div> -->
+    </section>
+
+    <footer class="contact">
+      <div class="contact-info">
+        <div class="first-info">
+          <h4>Home Tools SAC</h4>
+
+          <p>
+            Jr Pichincha 385, <br />
+            Breña <br />
+            Lima <br />
+            Perú
+          </p>
+          <p>+51 987 654 321</p>
+          <p>hometools@gmail.com</p>
+
+          <div class="social-icon">
+            <a href=""><i class="bx bxl-facebook"></i></a>
+            <a href=""><i class="bx bxl-twitter"></i></a>
+            <a href=""><i class="bx bxl-instagram"></i></a>
+            <a href=""><i class="bx bxl-youtube"></i></a>
+            <a href=""><i class="bx bxl-linkedin"></i></a>
           </div>
         </div>
-      </section>
-
-      <footer class="contact">
-        <div class="contact-info">
-            <div class="first-info">
-                <h4>Home Tools SAC</h4>
-
-                <p>Jr Pichincha 385, <br> Breña <br> Lima <br> Perú</p>
-                <p>+51 987 654 321</p>
-                <p>hometools@gmail.com</p>
-
-                <div class="social-icon">
-                    <a href=""><i class='bx bxl-facebook' ></i></a>
-                    <a href=""><i class='bx bxl-twitter' ></i></a>
-                    <a href=""><i class='bx bxl-instagram' ></i></a>
-                    <a href=""><i class='bx bxl-youtube' ></i></a>
-                    <a href=""><i class='bx bxl-linkedin' ></i></a>
-                </div>
-            </div>
-            <div class="second-info">
-                <h4>Support</h4>
-                <p>Contact Us</p>
-                <p>About Us</p>
-                <p>Physic Catalog</p>
-                <p>Shopping & Returns</p>
-                <p>Privacy</p>
-            </div>
-
-            <div class="third-info">
-                    <h4>Shop</h4>
-                    <p>Wireless Tools</p>
-                    <p>Wired Tools</p>
-                    <p>Brushless Tools</p>
-                    <p>Brush Tools</p>
-                    <p>Wood</p>
-            </div>
-
-            <div class="fourth-info">
-                <h4>Company</h4>
-                <p>About</p>
-                <p>Blog</p>
-                <p>Subscription</p>
-                <p>Login</p>
-            </div>
-
-            <div class="five">
-                <h4>Subscribe</h4>
-                <p>Receive updates, Hot Deals, Discounts</p>
-                <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.</p>
-                <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.</p>
-                <p></p>
-            </div>
+        <div class="second-info">
+          <h4>Support</h4>
+          <p>Contact Us</p>
+          <p>About Us</p>
+          <p>Physic Catalog</p>
+          <p>Shopping & Returns</p>
+          <p>Privacy</p>
         </div>
+
+        <div class="third-info">
+          <h4>Shop</h4>
+          <p>Wireless Tools</p>
+          <p>Wired Tools</p>
+          <p>Brushless Tools</p>
+          <p>Brush Tools</p>
+          <p>Wood</p>
+        </div>
+
+        <div class="fourth-info">
+          <h4>Company</h4>
+          <p>About</p>
+          <p>Blog</p>
+          <p>Subscription</p>
+          <p>Login</p>
+        </div>
+
+        <div class="five">
+          <h4>Subscribe</h4>
+          <p>Receive updates, Hot Deals, Discounts</p>
+          <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.</p>
+          <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.</p>
+          <p></p>
+        </div>
+      </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
